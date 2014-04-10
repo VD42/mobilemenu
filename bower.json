@@ -1,6 +1,6 @@
 {
     "name": "vd42-mobilemenu",
-    "version": "1.1.0",
+    "version": "1.1.0-fix1",
     "description": "Turn unorderer list menu into dropdown select menu",
     "homepage": "http://github.com/mambows/mobilemenu",
     "author": "mambows <https://github.com/mambows>",
@@ -15,5 +15,8 @@
     "main": "./jquery.mobilemenu.js",
     "dependencies": {
         "jquery": ">= 1.7.0"
-    }
+    },
+    "ignore": [
+        "readme.md"
+    ]
 }
